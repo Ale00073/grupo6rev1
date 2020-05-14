@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Formulario Producto</title>
+</head>
+<body>
+    <div>
+        <div>
+            <header class="conteiner" >
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+             
+               
+                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                   <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                     <li>
+                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          home
+                         </a>
+                     </li>
+                    <!--hombre-->
+                     <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Hombre
+                         </a>
+                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="#">Ropa</a>
+                           <a class="dropdown-item" href="#">Calzado</a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="#">Otro</a>
+                         </div>
+                       </li>
+                     <!--mujer-->
+                     <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Mujer
+                         </a>
+                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="#">Ropa</a>
+                           <a class="dropdown-item" href="#">Calzado</a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="#">Otro</a>
+                         </div>
+                       </li>
+                       <!--niño-->
+                     <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Niño
+                         </a>
+                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="#">Ropa</a>
+                           <a class="dropdown-item" href="#">Calzado</a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="#">Otro</a>
+                         </div>
+                       </li>                                
+                      <!--otro-->
+                       <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          otro
+                         </a>
+                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="#">Ropa</a>
+                           <a class="dropdown-item" href="#">Calzado</a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="#">Otro</a>
+                         </div>
+                       </li>
+                   </ul>
+                   <!--buscador-->
+                   <form class="form-inline my-2 my-lg-0">
+                     <input class="form-control mr-sm-2" type="search" placeholder="Buscador" aria-label="Buscador">
+                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscador</button>
+                   </form>
+                   <div></div>
+                   <ul class="nav navbar-nav navbar-right">
+                     <li><a href="#"><span class="glyphicon glyphicon-user"></span>Registro</a></li>
+                     
+                     </a></li>
+                     <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logiar</a></li>
+                   </ul>
+               </nav>
+             </heder>
+        </div>
+        <br>
+<div class="conteiner">
+     <div class="title">
+            <h1>Crea tu publicacion!</h1>
+        </div>
+</div>
+       
+<div class="conteiner">
+    
+        <div class="mainform">
+            <div class="category">
+                <h2>Categoria Seleccionada</h2>
+                <h3>Moda / Ropa y Calzado <a href="#" class="link">cambiar</a></h3>
+            </div>
+            <form action="#" class="inForm">
+                <label for="title"><h2>Titulo del anuncio</h2</label>
+            <br>
+                <input type="text" id="title" name="title" value="" autofocus>
+                <br>
+                <label for="description">Descripcion</label>
+            <br>
+                <input type="text" name="description" id="description" value="">
+            <br>
+                <label for="value">Precio</label>
+            <br>
+                <input type="text" name="value" id="value" value="">
+            <br>
+                <label for="imgs">Imagenes</label>
+            <br>
+            <div class="conteiner row">
+                <div class="col-4">
+                   <input type="image" src="img/65498c98-320f-4cef-8f75-a09ae69cfb35.jpg" class="imginput"> 
+                </div>
+                   <div class="col-4">
+                    <input type="image" src="img/897c48ab-5903-4397-bd4c-7e8db9372cd4.jpg" class="imginput">   
+                   </div>
+                <div class="col-4">
+                    <input type="image" src="img/901f2c00-57f7-443e-afab-1e964346a045.jpg" class="imginput"> 
+                </div>
+               
+            </div>
+             
+            <br>
+                <label for="tags">Etiquetas</label>
+            <br>
+                <select name="tagA" id="tagA" class="tags">
+                    <option value="tagA1">tagA1</option>
+                    <option value="tagA2">tagA2</option>
+                    <option value="tagA3">tagA3</option>
+                    <option value="tagA4">tagA4</option>
+                    <option value="tagA5">tagA5</option>
+                </select>
+                <select name="tagB" id="tagB" class="tags">
+                    <option value="tagB1">tagB1</option>
+                    <option value="tagB2">tagB2</option>
+                    <option value="tagB3">tagB3</option>
+                    <option value="tagB4">tagB4</option>
+                    <option value="tagB5">tagB5</option>
+                </select>
+                <select name="tagC" id="tagC" class="tags">
+                    <option value="tagC1">tagC1</option>
+                    <option value="tagC2">tagC2</option>
+                    <option value="tagC3">tagC3</option>
+                    <option value="tagC4">tagC4</option>
+                    <option value="tagC5">tagC5</option>
+                </select>
+            <br>
+            <br>
+            <input type="submit" value="submit">
+            </form>
+        </div>
+</div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+</body>
+</html>
